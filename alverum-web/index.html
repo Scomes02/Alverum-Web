@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Alverum - Broker de Seguros. Encontramos la mejor cobertura para tu tranquilidad. Cotiza online seguros de auto, hogar, vida y empresas.">
+    <title>Alverum | Broker de Seguros</title>
+    <link rel="icon" href="assets/img/logo-alverum.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <img src="assets/img/logo-alverum.png" alt="Alverum Logo" class="nav-logo">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">La Empresa</a></li>
+                <li><a href="#seguros">Coberturas</a></li>
+                <li><a href="#aseguradoras">Compañías</a></li>
+            </ul>
+            <a href="#seguros" class="btn-primary nav-btn">Cotizar ahora</a>
+
+            <!-- NUEVO: Botón Hamburguesa -->
+            <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="container">
+            <h1>Tranquilidad para vos y tu patrimonio</h1>
+            <p>Comparamos entre las mejores aseguradoras del país para ofrecerte la cobertura ideal al mejor precio. Tu
+                seguridad, nuestra prioridad.</p>
+            <div class="hero-actions">
+                <a href="#seguros" class="btn-primary">Ver Seguros</a>
+                <a href="#nosotros" class="btn-outline" style="color: white; border-color: white;">Conocenos</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="nosotros" class="nosotros container section-padding">
+        <div class="nosotros-content">
+            <h2>¿Quiénes somos?</h2>
+            <p><strong>Alverum</strong> nace con una misión clara: simplificar el complejo mundo de los seguros. Somos
+                un equipo de Productores Asesores de Seguros (PAS) altamente capacitados, dedicados a proteger lo que
+                más valorás.</p>
+            <p>No trabajamos para una sola compañía, <strong>trabajamos para vos</strong>. Analizamos tu perfil, tus
+                necesidades y tu presupuesto para diseñar un plan de contingencia a medida. Más de 6 años de experiencia
+                en el mercado asegurador argentino nos avalan.</p>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>+6</h3>
+                    <p>Años de experiencia</p>
+                </div>
+                <div class="stat-item">
+                    <h3>9</h3>
+                    <p>Compañias confiando en nosotros</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Atención de siniestros</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seguros" class="seguros section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center">Nuestras Coberturas</h2>
+            <p class="text-center subtitle">Soluciones integrales para individuos y empresas.</p>
+
+            <div class="grid-seguros">
+
+                <div class="card">
+                    <h3>Vehículos</h3>
+                    <p>Coberturas de Responsabilidad Civil, Terceros Completos y Todo Riesgo con franquicia. Asistencia
+                        24hs.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Seguro de Vehículos">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Bicicletas y Movilidad</h3>
+                    <p>Cobertura integral contra robo, daños totales por accidente y responsabilidad civil. Pedaleá con
+                        total tranquilidad en la ciudad o la montaña.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Seguro de Bicicletas">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Hogar</h3>
+                    <p>Protección contra incendio, robo, daños por agua y responsabilidad civil. Tranquilidad para tu
+                        familia.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Seguro de Hogar">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Accidentes Personales</h3>
+                    <p>Respaldo económico ante accidentes las 24 horas, ideal para trabajadores independientes y
+                        profesionales.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Accidentes Personales">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Seguros de Vida</h3>
+                    <p>Garantizá el futuro económico de tu familia y protegé a tus seres queridos ante cualquier
+                        eventualidad.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Seguro de Vida">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Asistencia al Viajero</h3>
+                    <p>Viajá con tranquilidad. Cobertura médica, pérdida de equipaje y asistencia legal en cualquier
+                        parte del mundo.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Asistencia al Viajero">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Seguro de Caución</h3>
+                    <p>Garantías para alquileres comerciales y de vivienda, obras públicas y privadas, y desempeño
+                        profesional.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Seguro de Caución">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Electrodomésticos</h3>
+                    <p>Protegé tus aparatos electrónicos y línea blanca contra variaciones de tensión, daños eléctricos
+                        y robos.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar"
+                            data-seguro="Seguro de Electrodomésticos">Cotizar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Integral Comercial</h3>
+                    <p>Blindá tu negocio contra robos, incendios, rotura de cristales y reclamos de terceros.</p>
+                    <div class="card-actions">
+                        <button class="btn-primary btn-cotizar" data-seguro="Integral Comercial">Cotizar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="aseguradoras" class="aseguradoras container section-padding">
+        <h2 class="text-center">Compañías que nos respaldan</h2>
+        <p class="text-center subtitle">Operamos con las empresas líderes del mercado para garantizar tu solvencia.</p>
+        <div class="logos-grid">
+            <!-- Logos encapsulados para control de tamaño y SEO -->
+            <div class="logo-item">
+                <img src="assets/img/seguro-rivadavia.png" alt="Seguros Rivadavia">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/swiss-medical.png" alt="Swiss Medical">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/mercantil-andina.png" alt="Mercantil Andina">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/seguro-mapfre.png" alt="Mapfre">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/triunfo-seguro.png" alt="Triunfo Seguros">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/cooperacion-seguros.png" alt="Cooperación Seguros">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/rus-seguro.png" alt="Río Uruguay Seguros">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/bbva-seguro.png" alt="BBVA Seguros">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/experta-seguros.png" alt="Experta Seguros">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/life-seguros.png" alt="Life Seguros">
+            </div>
+            <div class="logo-item">
+                <img src="assets/img/caruso-seguros.png" alt="Caruso Seguros">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/img/logo-alverum.png" alt="Alverum Logo" class="footer-logo">
+                <p>Tu broker de seguros de confianza. Cotizaciones rápidas, transparentes y a tu medida.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#seguros">Seguros</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>Email: contacto@empresa.com</p>
+                <p>Tel: 000 000 0000</p>
+                <p>Tel: 000 000 0000</p>
+                <p>Horario: Lun a Vie, 9:00 a 18:00 hs</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Alverum Broker de Seguros. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="modalCotizacion" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Solicitar Presupuesto</h2>
+            <form id="formCotizacion" action="#" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+                <input type="text" name="contacto" placeholder="Email o Celular" required>
+                <input type="hidden" name="tipo_seguro" id="inputTipoSeguro">
+                <textarea name="mensaje" id="inputMensaje" rows="4" required></textarea>
+
+                <button type="submit" id="btnSubmit" class="btn-primary btn-block">Enviar Consulta</button>
+
+                <p id="formStatus" style="text-align: center; margin-top: 15px; font-weight: 600;"></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         CHATBOT WIDGET ALVERUM
+         ========================================== -->
+    <!-- Botón Flotante -->
+    <button id="chatbot-trigger" class="chatbot-float" title="Chatear con nosotros">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" class="chat-icon">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+    </button>
+
+    <!-- Ventana del Chat -->
+    <div id="chatbot-window" class="chatbot-window hidden">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <span class="status-dot"></span>
+                Asistente Alverum
+            </div>
+            <button id="chatbot-close" class="chatbot-close">&times;</button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-body">
+            <!-- Los mensajes se inyectan acá vía JS -->
+        </div>
+        <div class="chatbot-footer">
+            <small>Respuestas automatizadas. Elige una opción arriba 👆</small>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
